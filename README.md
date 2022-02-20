@@ -1,9 +1,8 @@
 # Amazon_Vine_Analysis
 
 ## Overview 
-The purpose of this project is to assist my client with producing map visualizations using specific data sets related to JSON or GeoJSON. Thus far I have assited my client with producing an earthquake map with two different maps and an earthquake overlay.  My client is now interested seeing earthquake data in relation to the tectronic plates' location on the earth.  I have used various colors that will allow you to see the correlations between the map overlays.
-
-My final sprint will include adding three (3) specific visualization which are identified below.  As always, my analysis followed the data analysis principles of (1) Determine the number of rows and columns; (2) Data types used; and (3) Is the data readable?
+The purpose of this project is to assist my client with reviewing an Amazon S3 dataset that contains wireless product data.  The client would like my assistance with
+using PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin.  Additionally, I will use PySpark to determine if there is any bias toward favorable reviews from Vine members in this dataset.  I will conclude with a summary of the analysis for my client to submit to their stakeholders.  As always, my analysis followed the data analysis principles of (1) Determine the number of rows and columns; (2) Data types used; and (3) Is the data readable?
 
 __Client Expected Results:__
 - Number of Vine reviews 
