@@ -36,11 +36,11 @@ This deliverable required me to create a new database with Amazon RDS (Relationa
 
 ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/customer.PNG)
 
-![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/customer.PNG)
+![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/products.PNG)
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/review_id_table.png)
+![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/review_id_table.PNG)
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/vine_table.png)
+![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/vine_table.png)
 
 
 ### Deliverable 2:__  Determine Bias of Vine Reviews
