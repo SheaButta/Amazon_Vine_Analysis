@@ -13,6 +13,7 @@ __Client Deliverables:__
 The resouces used for this analysis included;
 - AWS Relational Database Service (RDS)
 - AWS Simple Storage Service (S3)
+- Google Colaboratory
 - PySpark (ETL)
 - PostgreSQL
 - pgAdmin
