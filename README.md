@@ -47,7 +47,7 @@ This deliverable required me to create a new database with Amazon RDS (Relationa
 
 This deliverable required me to collect and manipulate the dataset to generate various calculations which will help determine bias of vine review.  The various calculated parts are identified below to help determine the possibility of bias of Vine Reviews.
 
-  _**Number of Vine reviews:**___
+  _**Number of Vine reviews:**_
   
   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
 
