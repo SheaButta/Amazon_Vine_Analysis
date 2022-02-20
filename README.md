@@ -7,7 +7,6 @@ using PySpark to perform the ETL process to extract the dataset, transform the d
 __Client Deliverables:__
 - Deliverable 1: Perform ETL on Amazon Product Reviews
 - Deliverable 2: Determine Bias of Vine Reviews
-- Deliverable 3: A Written Report on the Analysis (README.md)
 
 
 ## Resources
