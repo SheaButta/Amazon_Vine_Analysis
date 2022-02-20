@@ -4,7 +4,12 @@
 The purpose of this project is to assist my client with reviewing an Amazon S3 dataset that contains wireless product data.  The client would like my assistance with
 using PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin.  Additionally, I will use PySpark to determine if there is any bias toward favorable reviews from Vine members in this dataset.  I will conclude with a summary of the analysis for my client to submit to their stakeholders.  As always, my analysis followed the data analysis principles of (1) Determine the number of rows and columns; (2) Data types used; and (3) Is the data readable?
 
-__Client Expected Results:__
+__Client Deliverables:__
+- Deliverable 1: Perform ETL on Amazon Product Reviews
+- Deliverable 2: Determine Bias of Vine Reviews
+- Deliverable 3: A Written Report on the Analysis (README.md)
+
+
 - Number of Vine reviews 
 - Number of non-Vine reviews
 - Number of Vine reviews that were 5 stars
@@ -15,47 +20,63 @@ __Client Expected Results:__
 
 ## Resources
 The resouces used for this analysis included;
-- AWS
-  - RDS, S3
-- Google Colaboratory
-- PySpark
+- AWS Relational Database Service (RDS)
+- AWS Simple Storage Service (S3)
+- PySpark (ETL)
 - PostgreSQL
 - pgAdmin
 
 
 ## Results
-All sprints were completed as scheduled and I delivered on all client expectations/results. The below images will visualize the expected client results.
+All sprints were completed as scheduled and I delivered on all client expectations/results. The below images will visualize the expected client results to help summarize if a there was any bias of vine review.
 
-__Deliverable 1:__ Number of Vine reviews
+### Deliverable 1:__ Perform ETL on Amazon Product Reviews
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/NoOverlay.PNG)
+This deliverable required me to create a new database with Amazon RDS (Relational Database Service) and add database tables and data to this database using pgADMIN.  The data was successfully loaded using my PySpark ETL pipleline.
 
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/customers.png)
 
-__Deliverable 2:__ Number of non-Vine reviews
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/products.png)
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/review_id_table.png)
 
-
-__Deliverable 3:__ Number of Vine reviews that were 5 stars
-
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/TechtronicPlatesOverlay.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/vine_table.png)
 
 
-__Deliverable 4:__ Number of non-Vine reviews were 5 stars
+### Deliverable 2:__  Determine Bias of Vine Reviews
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Techtronic_EQs.PNG)
+This deliverable required me to collect and manipulate the dataset to generate various calculations which will help determine bias of vine review.  The various calculated parts are identified below to help determine the possibility of bias of Vine Reviews.
 
-
-__Deliverable 5:__ Percentage of Vine reviews were 5 stars
-
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Techtronic_EQs_majorEQs.PNG)
-
-
-__Deliverable 6:__ Percentage of non-Vine reviews were 5 stars
-
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Satellite_AllOverlays.PNG)
+  _**Number of Vine reviews:**___
+  
+  ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
 
 
+   _**Number of non-Vine reviews**_
+   
+   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   
+   
+   _**Number of Vine reviews that were 5 stars**_
+   
+   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   
+   
+   _**Number of non-Vine reviews were 5 stars**_
+   
+   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   
+   
+   _**Percentage of Vine reviews were 5 stars**_
+   
+   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   
+   
+   _**Percentage of non-Vine reviews were 5 stars**_
+   
+   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   
+   
 ## Summary
 My client is extremely pleased with the final sprint as we have proven the ability to read JSON and GeoJSON data and most importantly visualize the data using D3 (Data-Driven Documents) and the Leaflet JavaScript library.  
 
