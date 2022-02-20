@@ -34,9 +34,9 @@ All sprints were completed as scheduled and I delivered on all client expectatio
 
 This deliverable required me to create a new database with Amazon RDS (Relational Database Service) and add database tables and data to this database using pgADMIN.  The data was successfully loaded using my PySpark ETL pipleline.
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/customers.png)
+![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/customer.PNG)
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/products.png)
+![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/customer.PNG)
 
 ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Amazon_Vine_Analysis/Images/review_id_table.png)
 
