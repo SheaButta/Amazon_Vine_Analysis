@@ -10,14 +10,6 @@ __Client Deliverables:__
 - Deliverable 3: A Written Report on the Analysis (README.md)
 
 
-- Number of Vine reviews 
-- Number of non-Vine reviews
-- Number of Vine reviews that were 5 stars
-- Number of non-Vine reviews were 5 stars
-- Percentage of Vine reviews were 5 stars
-- Percentage of non-Vine reviews were 5 stars
-
-
 ## Resources
 The resouces used for this analysis included;
 - AWS Relational Database Service (RDS)
