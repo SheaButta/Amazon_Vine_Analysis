@@ -30,7 +30,7 @@ The resouces used for this analysis included;
 ## Results
 All sprints were completed as scheduled and I delivered on all client expectations/results. The below images will visualize the expected client results to help summarize if a there was any bias of vine review.
 
-### Deliverable 1:__ Perform ETL on Amazon Product Reviews
+### Deliverable 1: Perform ETL on Amazon Product Reviews
 
 This deliverable required me to create a new database with Amazon RDS (Relational Database Service) and add database tables and data to this database using pgADMIN.  The data was successfully loaded using my PySpark ETL pipleline.
 
@@ -43,38 +43,38 @@ This deliverable required me to create a new database with Amazon RDS (Relationa
 ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/vine_table.PNG)
 
 
-### Deliverable 2:__  Determine Bias of Vine Reviews
+### Deliverable 2:  Determine Bias of Vine Reviews
 
 This deliverable required me to collect and manipulate the dataset to generate various calculations which will help determine bias of vine review.  The various calculated parts are identified below to help determine the possibility of bias of Vine Reviews.
 
   _**Number of Vine reviews:**_
   
-  ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+  ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/TOTAL_PAID.PNG)
 
 
    _**Number of non-Vine reviews**_
    
-   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/TOTAL_UNPAID.PNG)
    
    
    _**Number of Vine reviews that were 5 stars**_
    
-   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/TOTAL_PAID_5STAR.PNG)
    
    
    _**Number of non-Vine reviews were 5 stars**_
    
-   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/TOTAL_UNPAID_5STAR.PNG)
    
    
    _**Percentage of Vine reviews were 5 stars**_
    
-   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/Percent_PAID_5Star.PNG)
    
    
    _**Percentage of non-Vine reviews were 5 stars**_
    
-   ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
+   ![](https://github.com/SheaButta/Amazon_Vine_Analysis/blob/main/Images/Percent_UNPAID_5Star.PNG)
    
    
 ## Summary
