@@ -69,8 +69,7 @@ This deliverable required me to collect and manipulate the dataset to generate v
    
    
 ## Summary
-My client is extremely pleased with the final sprint as we have proven the ability to read JSON and GeoJSON data and most importantly visualize the data using D3 (Data-Driven Documents) and the Leaflet JavaScript library.  
-
+The review of the data appears to show some bias in the Vine program for the non-Vine 5-Star reviews.  Although the percentage of bias is not even 50%, 47% is stil relatively close.  Some additional analysis to capture mean, median and mode of the Vine and non-Vine reviews would help quantify this review.
 
 
 
